@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+.nicbits-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: consolas, monospace;
+}
+
+.logo-icon {
+  position: relative;
+  width: 40px; /* Reduced from 60px */
+  height: 40px; /* Reduced from 60px */
+  flex-shrink: 0;
+}
+
+.base {
+  position: absolute;
+  width: 16px; /* Reduced from 24px */
+  height: 16px; /* Reduced from 24px */
+  top: 26px; /* Adjusted */
+  left: 13px; /* Adjusted */
+  background: linear-gradient(90deg, #075c9c 0%, #075c9c 50%, #0A4B78 50%, #0A4B78 100%);
+  clip-path: polygon(51% 25%, 49% 25%, 46% 30%, 44% 34%, 0 48%, 0 51%, 49% 75%, 51% 75%, 100% 51%, 100% 49%);
+}
+
+.bit {
+  position: absolute;
+}
+
+.b1 {
+  width: 9px; /* Reduced from 14px */
+  height: 9px; /* Reduced from 14px */
+  top: 20px; /* Adjusted */
+  left: 0; /* Adjusted */
+  background: #036fad;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.b2 {
+  width: 9px; /* Reduced from 14px */
+  height: 9px; /* Reduced from 14px */
+  top: 10px; /* Adjusted */
+  left: 10px; /* Adjusted */
+  background: #0e9bad;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.b3 {
+  width: 9px; /* Reduced from 14px */
+  height: 9px; /* Reduced from 14px */
+  top: 0;
+  left: 20px; /* Adjusted */
+  background: #0da886;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.b4 {
+  width: 8px; /* Reduced from 12px */
+  height: 10px; /* Reduced from 16px */
+  top: 23px; /* Adjusted */
+  left: 13px; /* Adjusted */
+  background: #0578a5;
+  border-radius: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 2px;
+}
+
+.b5 {
+  width: 8px; /* Reduced from 12px */
+  height: 10px; /* Reduced from 16px */
+  top: 23px; /* Adjusted */
+  left: 21px; /* Adjusted */
+  background: #075c9c;
+  border-bottom-right-radius: 2px;
+}
+
+.b6 {
+  width: 8px; /* Reduced from 12px */
+  height: 8px; /* Reduced from 12px */
+  top: 15px; /* Adjusted */
+  left: 21px; /* Adjusted */
+  background: #078cda;
+  border-radius: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.logo-text h1 {
+  position: relative;
+  margin: 0;
+  font-size: 1.5rem; /* Reduced from 2.5rem */
+  font-weight: 700;
+  background: linear-gradient(
+    -45deg,
+    #780a69 0%,
+    #00A2FF 33%,
+    #007fc8 66%,
+    #4ac3b9 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.logo-text p {
+  position: relative;
+  top: -4px; /* Adjusted */
+  margin: 0 0 0;
+  font-size: 0.6rem; /* Reduced from 0.7rem */
+  color: #34c7bb;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo-brand {
+  background: cornsilk;
+  width: 200px; /* Reduced from 300px */
+  height: 130px; /* Reduced from 200px */
+  border-radius: 0 0 100% 100% / 0 0 40% 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}

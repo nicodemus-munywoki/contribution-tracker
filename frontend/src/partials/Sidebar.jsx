@@ -62,7 +62,7 @@ const Sidebar = ({ closeSidebar }) => {
               className='flex items-center gap-2 p-2 hover:bg-green-700 rounded'
             >
               <GiRooster size={20} />
-              <span>Poultry</span>
+              <span>Contributions</span>
             </a>
           </li>
           <li>
@@ -71,44 +71,7 @@ const Sidebar = ({ closeSidebar }) => {
               className='flex items-center gap-2 p-2 hover:bg-green-700 rounded'
             >
               <GiGoat size={20} />
-              <span>Goat</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href='/farms'
-              className='flex items-center gap-2 p-2 hover:bg-green-700 rounded'
-            >
-              <PiMapPinLine size={20} />
-              <span>Farm</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href='/categories'
-              className='flex items-center gap-2 p-2 hover:bg-green-700 rounded'
-            >
-              <PiMapPinLine size={20} />
-              <span>Categories</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href='/archives'
-              className='flex items-center gap-2 p-2 hover:bg-green-700 rounded'
-            >
-              <VscFolderLibrary />
               <span>Archives</span>
-            </a>
-          </li>
-          <hr className='border-white/30' />
-          <li>
-            <a
-              href='/shop'
-              className='flex items-center gap-2 p-2 hover:bg-green-700 rounded'
-            >
-              <CiShop size={20} />
-              <span>Shop</span>
             </a>
           </li>
           <hr className='border-white/30' />
